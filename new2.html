@@ -1,0 +1,71 @@
+
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+      </script>
+
+      <script>
+        $(function(){
+            $('#footer').load('footer.html');
+        });
+      </script>
+
+      <script>
+        $(function(){
+            $('#navbar').load('navbar.html');
+        });
+      </script>
+
+    </head>
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: beige;
+        }
+        
+        .navbar1 {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+
+        .navbar1 a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        </style>
+
+    <body>
+
+    <div id="header"></div>
+    
+    <div id="navbar"></div>
+      
+    <div class="container">
+        <h4>fullstack club</h4>
+        <p>bent</p>
+    </div>
+
+    <div id="footer"></div>
+    </body>
+    </html>
+    
+</html>
